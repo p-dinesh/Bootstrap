@@ -1,0 +1,134 @@
+body {
+      background-color: rgba(0, 0, 0, 0.95);
+      color: rgba(255, 255, 255, 0.85);
+}
+
+#head-nav {
+      background-color: #343a40 !important;
+}
+
+#head-nav a {
+      color: white !important;
+}
+#nav-link {
+      color: #939c99 !important;
+}
+
+.container {
+      .row {
+            .col-lg-4 {
+                  h2 {
+                        padding-top: 20px;
+                  }
+                  img {
+                        width: 120px;
+                        height: 120px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                  }
+            }
+      }
+}
+
+.row {
+      .col-md-5 {
+            img {
+                  width: 350px;
+                  height: 350px;
+                  object-fit: inherit;
+            }
+      }
+}
+
+.row {
+      .order-md-1 {
+            img {
+                  width: 350px;
+                  height: 350px;
+                  object-fit: inherit;
+            }
+      }
+}
+
+.featurette-divider {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media only screen and (max-width: 1000px) {
+      #mountain {
+            .col-md-5 {
+                  padding: 0;
+            }
+
+            .row {
+                  .order-md-1 {
+                        img {
+                              width: 280px;
+                              height: 280px;
+                        }
+                  }
+                  .col-md-5 {
+                        img {
+                              width: 280px;
+                              height: 280px;
+                        }
+                  }
+            }
+      }
+      @media only screen and (max-width: 950px) {
+            .carousel-item {
+                  img {
+                        height: 400px;
+                  }
+            }
+            .row {
+                  .col-lg-4 {
+                        padding: 15px 0;
+                  }
+            }
+
+            .row {
+                  .order-md-1 {
+                        img {
+                              width: 270px;
+                              height: 270px;
+                        }
+                  }
+                  .col-md-5 {
+                        img {
+                              width: 270px;
+                              height: 270px;
+                        }
+                  }
+            }
+      }
+
+      @media only screen and (max-width: 550px) {
+            .container {
+                  padding: 40px;
+                  padding-bottom: 0;
+            }
+      }
+
+      @media only screen and (max-width: 400px) {
+            .carousel-item {
+                  img {
+                        height: 300px;
+                  }
+            }
+            .row {
+                  .order-md-1 {
+                        img {
+                              width: 260px;
+                              height: 260px;
+                        }
+                  }
+                  .col-md-5 {
+                        img {
+                              width: 260px;
+                              height: 260px;
+                        }
+                  }
+            }
+      }
+}
